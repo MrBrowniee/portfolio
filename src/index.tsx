@@ -9,6 +9,8 @@ import {
 } from "react-router-dom";
 import Homepage from './components/homepage/homepage';
 import styles from './index.module.scss'
+import Navbar from './components/navbar/navbar';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,6 +18,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='home' element={<Homepage />} />
