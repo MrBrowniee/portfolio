@@ -7,13 +7,20 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Homepage from './components/homepage/homepage';
+import styles from './index.module.scss'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App />}></Route>
+        <Route path='home' element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
