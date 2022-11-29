@@ -3,26 +3,24 @@
     height: 45%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap-reverse;
-    justify-content: space-between;
+    align-content: flex-start;
   
     h1 {
       font-size: 300%;
-      color: rgb(161, 56, 56);
-      text-shadow: 2px 2px #7860ff;
+      color: rgb(255, 255, 255);
       font-family: Verdana, Geneva, Tahoma, sans-serif;
+      align-items: center;
     }
     
   
     p {
-      font-weight: 700;
-      font-size: 60%;
-      color: rgb(206, 255, 255);
-      background: rgb(255, 0, 200);
-      padding: 0%;
+      font-size: 100%;
+      color: rgb(0, 0, 0);
+      background: rgb(172, 172, 172);
+      align-items: left;
     }
 
     h2 {
-      font-size: 75%;
+      font-size: 100%;
     }
   }
