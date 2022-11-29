@@ -11,6 +11,16 @@ import Homepage from './components/homepage/homepage';
 import styles from './index.module.scss'
 import Navbar from './components/navbar/navbar';
 
+const Index = () => {
+  return (
+    <div className={styles.container}>
+      Index
+    </div>
+  )
+}
+
+export default Index
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
