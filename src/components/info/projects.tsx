@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styles from './info.module.scss';
 
 type ProjectsProps = {
 
@@ -6,7 +7,7 @@ type ProjectsProps = {
 
 const Projects: React.FC<ProjectsProps> = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <a href="https://github.com/MrBrowniee" target="_blank">github link</a>
     </div>
   )

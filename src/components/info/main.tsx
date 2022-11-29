@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styles from './info.module.scss';
 
 type MainProps = {
 
@@ -6,8 +7,14 @@ type MainProps = {
 
 const Main: React.FC<MainProps> = () => {
   return (
-    <div>
-      My Information
+    <div className={styles.container}>
+      <nav>
+        <h2><ul>
+          <li>Age: 22</li>
+          <li></li>
+          <li></li>
+        </ul></h2>
+      </nav>
     </div>
   )
 }
