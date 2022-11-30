@@ -11,6 +11,7 @@ import Homepage from './components/homepage/homepage';
 import styles from './index.module.scss'
 import Navbar from './components/navbar/navbar';
 import Projects from './components/info/projects';
+import ContactMe from './components/contactMe/contactMe';
 
 const Index = () => {
   return (
@@ -34,6 +35,7 @@ root.render(
         <Route path='/' element={<App />}></Route>
         <Route path='home' element={<Homepage />} />
         <Route path='projects' element={<Projects />}></Route>
+        <Route path='contactMe' element={<ContactMe />}></Route>     
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

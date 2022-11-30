@@ -1,21 +1,13 @@
 .container {
     width: 100%;
-    height: 450px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0%;
+    flex-direction: row;
+    justify-content: space-evenly;
   
-    h1 {
-      font-size: 52%;
-      color: azure;
-    }
-  
-    p {
-      font-weight: 700;
-      font-size: 25px;
-      color: rgb(206, 255, 255);
-      padding: 10px;
+    a {
+      font-size: 115%;
+      color: rgb(0, 0, 0);
+      text-decoration: none;
     }
   }
