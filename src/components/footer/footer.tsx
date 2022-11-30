@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './footer.module.scss'
 
 type FooterProps = {
@@ -8,8 +9,7 @@ type FooterProps = {
 const Footer: React.FC<FooterProps> = () => {
   return (
 <div className={styles.container}>
-    <a href="https://github.com/MrBrowniee?tab=repositories" target="_blank">Github</a>
-    <a href="https://github.com/MrBrowniee?tab=repositories" target="_blank">LinkedIn</a>  
+    <Link to="contactme">Contact Me</Link>
 </div>
   )
 }
