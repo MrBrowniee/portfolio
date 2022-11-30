@@ -10,6 +10,7 @@ import {
 import Homepage from './components/homepage/homepage';
 import styles from './index.module.scss'
 import Navbar from './components/navbar/navbar';
+import Projects from './components/info/projects';
 
 const Index = () => {
   return (
@@ -32,6 +33,7 @@ root.render(
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='home' element={<Homepage />} />
+        <Route path='projects' element={<Projects />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
