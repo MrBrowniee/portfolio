@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './contactMe.module.scss';
 
 type ContactMeProps = {
 
@@ -6,8 +7,9 @@ type ContactMeProps = {
 
 const ContactMe: React.FC<ContactMeProps> = () => {
   return (
-    <div>
-       
+    <div className={styles.container}>
+      <h1>Contact me</h1>
+      <h2></h2>
     </div>
   )
 }

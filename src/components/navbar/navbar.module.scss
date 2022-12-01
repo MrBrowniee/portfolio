@@ -2,7 +2,8 @@
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-position: relative;
+position: sticky;
+
   }
 
 a {
@@ -12,3 +13,6 @@ a {
   background: rgb(164,164,164);
   background: radial-gradient(circle, rgba(164,164,164,1) 0%, rgba(214,214,214,1) 100%);
 }
+
+
+
