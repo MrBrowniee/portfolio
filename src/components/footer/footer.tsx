@@ -9,7 +9,7 @@ type FooterProps = {
 const Footer: React.FC<FooterProps> = () => {
   return (
 <div className={styles.container}>
-    <Link to="contactme">Contact Me</Link>
+    
 </div>
   )
 }
