@@ -9,7 +9,7 @@ type ProjectsProps = {
 const Projects: React.FC<ProjectsProps> = () => {
   return (
     <div className={styles.container}>
-      <a href="https://github.com/MrBrowniee?tab=repositories" target="_blank">github link</a>  
+      <a href="https://github.com/MrBrowniee?tab=repositories">github link</a>  
     </div>
   )
 }
