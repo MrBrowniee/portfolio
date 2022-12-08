@@ -10,13 +10,13 @@ import {
 import Homepage from './components/homepage/homepage';
 import styles from './index.module.scss'
 import Navbar from './components/navbar/navbar';
-import Projects from './components/info/projects';
 import ContactMe from './components/contactMe/contactMe';
+import Projects from './components/info/projects';
 
 const Index = () => {
   return (
     <div className={styles.container}>
-      Index
+      index
     </div>
   )
 }

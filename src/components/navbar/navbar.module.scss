@@ -1,20 +1,23 @@
 .container {
+width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-position: relative;
-background: rgb(112, 112, 112);
-height: 25px;
-padding-top: 5px;
-
-  }
-
-a {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  align-items: center;
+position: fixed;
+top: 0;
 }
 
+div {
+    margin-bottom: 20%;
+    padding: 2px;
+}
 
-
+a {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 3px 3px 0 0 black;
+}
