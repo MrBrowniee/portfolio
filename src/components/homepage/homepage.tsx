@@ -10,15 +10,16 @@ const Homepage: React.FC<HomepageProps> = () => {
   <div className={styles.container}>
     <h1>Portfolio</h1>
       <h2>About me</h2>
-        <p>My name is Arttu Lindqvist.<br></br>I am a 22-year-old software developer.<br></br>
-        My github page linked above has some projects that I have made in the past.<br></br>
-        Coding languages I have used: <br></br>
+        <p>My name is Arttu Lindqvist.
+        <br/>I am a 22-year-old software developer.
+        <br/>My github page linked above has some projects that I have made in the past.
+        <br/>Coding languages I have used: <br/>
         <strong>
-          C<br></br>
-          C#<br></br>
-          C++<br></br>
-          Python<br></br>
-          Javascript + Typescript<br></br>
+          C<br/>
+          C#<br/>
+          C++<br/>
+          Python<br/>
+          Javascript + Typescript<br/>
         </strong></p>
   </div>
   )

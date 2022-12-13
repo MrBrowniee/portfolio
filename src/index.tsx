@@ -1,21 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App'
+import reportWebVitals from './reportWebVitals'
+import styles from './index.module.scss'
+import Navbar from './components/navbar/navbar'
+import ContactMe from './components/contactMe/contactMe'
+import Projects from './components/info/projects'
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Homepage from './components/homepage/homepage';
-import styles from './index.module.scss'
-import Navbar from './components/navbar/navbar';
-import ContactMe from './components/contactMe/contactMe';
-import Projects from './components/info/projects';
+
 
 const Index = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.body}>
       index
     </div>
   )
@@ -30,10 +30,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <BrowserRouter> 
-    <Navbar></Navbar>
+      <Navbar />
       <Routes>
         <Route path='/' element={<App />}></Route>
-        <Route path='home' element={<Homepage />} />
         <Route path='projects' element={<Projects />}></Route>
         <Route path='contactMe' element={<ContactMe />}></Route>     
       </Routes>
