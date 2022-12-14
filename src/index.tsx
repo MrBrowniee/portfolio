@@ -5,15 +5,13 @@ import reportWebVitals from './reportWebVitals'
 import './index.module.scss'
 import Navbar from './components/navbar/navbar'
 import ContactMe from './components/contactMe/contactMe'
-import Projects from './components/info/projects'
 import Footer from './components/footer/footer'
+import Cv from './components/info/cv'
 import {
   HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import Cv from './components/info/cv'
-
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
