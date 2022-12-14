@@ -6,11 +6,14 @@ import './index.module.scss'
 import Navbar from './components/navbar/navbar'
 import ContactMe from './components/contactMe/contactMe'
 import Projects from './components/info/projects'
+import Footer from './components/footer/footer'
 import {
   HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
+import Cv from './components/info/cv'
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,11 +22,14 @@ root.render(
   <React.StrictMode>
     <Router> 
       <Navbar />
-      <Routes>
-        <Route path='/' element={<App />}></Route>
-        <Route path='projects' element={<Projects />}></Route>
-        <Route path='contactMe' element={<ContactMe />}></Route>     
-      </Routes>
+        <Routes>
+          <Route path='/' element={<App />}></Route>
+          <Route path='contactMe' element={<ContactMe />}></Route>     
+        </Routes>
+      <Footer />
+        <Routes>
+          <Route path='cv' element={<Cv />}></Route>
+        </Routes>
     </Router>
   </React.StrictMode>
 );

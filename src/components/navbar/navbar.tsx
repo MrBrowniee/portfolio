@@ -11,7 +11,6 @@ const Navbar: React.FC<NavbarProps> = () => {
     <div className={styles.container}>
         <button><Link to="/">Home</Link></button>
         <button><Link to="contactme">Contact information</Link></button>
-        <button><a href="https://github.com/MrBrowniee?tab=repositories">Github</a></button>
     </div>
   
   )

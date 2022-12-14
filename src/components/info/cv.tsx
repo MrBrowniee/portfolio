@@ -8,7 +8,7 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div className={styles.container}>
-      <a href="https://github.com/MrBrowniee">cv</a>
+      <h1>work experience:</h1>
     </div>
   )
 }
