@@ -7,12 +7,13 @@ import Navbar from './components/navbar/navbar'
 import ContactMe from './components/contactMe/contactMe'
 import Footer from './components/footer/footer'
 import Cv from './components/info/cv'
+import AboutMe from './components/aboutMe/aboutMe'
 import {
   HashRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import AboutMe from './components/aboutMe/aboutMe'
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

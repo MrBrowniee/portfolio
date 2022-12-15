@@ -9,8 +9,8 @@ type FooterProps = {
 const Footer: React.FC<FooterProps> = () => {
   return (
 <div className={styles.container}>
-  <a href="https://github.com/MrBrowniee?tab=repositories">Github</a>
-  <Link to="cv">CV</Link>
+  <button><a href="https://github.com/MrBrowniee">Github</a></button>
+  <button><Link to="cv">CV</Link></button>
 </div>
   )
 }

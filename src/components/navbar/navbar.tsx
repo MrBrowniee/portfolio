@@ -11,7 +11,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     <div className={styles.container}>
         <button><Link to="/">Homepage</Link></button>
         <button><Link to="aboutMe">About me</Link></button>
-        <button><Link to="contactme">Contact information</Link></button>
+        <button><Link to="contactme">Contact me</Link></button>
     </div>
   )
 }
