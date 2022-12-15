@@ -10,7 +10,7 @@ const ContactMe: React.FC<ContactMeProps> = () => {
     <div className={styles.container}>
       <h1>Contact me</h1>
         <ul>
-          <li>Email: lindqvist.arttu@gmail.com</li>
+          <li>Email: <strong>lindqvist.arttu@gmail.com</strong></li>
           <li><a href="https://www.linkedin.com/in/arttu-lindqvist-257740180/">LinkedIn</a></li>
         </ul>
     </div>
