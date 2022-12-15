@@ -12,6 +12,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import AboutMe from './components/aboutMe/aboutMe'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,7 +23,8 @@ root.render(
       <Navbar />
         <Routes>
           <Route path='/' element={<App />}></Route>
-          <Route path='contactMe' element={<ContactMe />}></Route>     
+          <Route path='contactMe' element={<ContactMe />}></Route>
+          <Route path='aboutMe' element={<AboutMe />}></Route>     
         </Routes>
       <Footer />
         <Routes>
